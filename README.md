@@ -1,0 +1,2 @@
+# LaTeX_HidenNoTare
+Github上でLaTeXの秘伝のタレをバージョン管理するためのリポジトリ
