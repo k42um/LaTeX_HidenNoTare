@@ -1,0 +1,73 @@
+\documentclass[a4paper]{ltjsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,color}
+\usepackage{bxpdfver}
+\setpdfversion{2.0}
+\usepackage{bmpsize}
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{amssymb,amsmath}
+\usepackage{amsthm}
+\usepackage{fancybox}
+\usepackage{float}
+\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{enumerate}
+\usepackage{bm}
+\usepackage{physics}
+\usepackage{tabularx}
+\usepackage{scalefnt}
+\usepackage{bxpapersize}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{comment}
+
+% ソースコードの表示設定
+\usepackage{listings,jvlisting} 
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0\zw,
+  xleftmargin=3\zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1\zw,
+  lineskip=-0.5ex
+}
+\renewcommand{\lstlistingname}{ソースコード}
+
+\begin{comment}
+【画像】
+\begin{figure}[htbp]
+  \includegraphics[width = \linewidth]{hoge.huge}
+  \caption{hogehoge}
+  \label{hugehuge}
+\end{figure}
+
+【ソースコード】
+\begin{lstlisting}[caption=hoge,label=fuga]
+<code>
+\end{lstlisting}
+\end{comment}
+
+\title{テンプレート}
+\author{テン・プレート}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+%\newpage
+
+\end{document}
