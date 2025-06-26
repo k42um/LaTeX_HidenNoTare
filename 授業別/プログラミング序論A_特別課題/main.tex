@@ -47,17 +47,6 @@
 }
 \renewcommand{\lstlistingname}{ソースコード}
 
-% sectionとsubsectionの見出しの番号をなくす
-\usepackage{titlesec}
-\titleformat{\section}[block]{\normalfont\Large\bfseries}{}{0pt}{}
-\titleformat{\subsection}[block]{\normalfont\large\bfseries}{}{0pt}{}
-
-% subsubsectionの見出しを1.~スタイルに
-\renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
-
-% subsubsectionまで番号を付ける
-\setcounter{secnumdepth}{3}
-
 \begin{comment}
 【画像】
 \begin{figure}[H]
@@ -71,33 +60,10 @@
 \begin{lstlisting}[caption=hoge,label=fuga]
 <code>
 \end{lstlisting}
-
-【表】
-\begin{table}[H]
-    \centering
-    \caption{hoge}
-    \label{fuga}
-    \begin{tabular}{cc|cc}
-          &  &  &  \\
-         \hline
-          &  &  &  \\
-          &  &  &  \\
-          &  &  &  \\
-          &  &  &  \\
-    \end{tabular}
-\end{table}
-
-【参考文献】
-\begin{thebibliography}{99999}
-\bibitem{hoge} 参考文献
-\end{thebibliography}
-
-【表紙】
-\includepdf{表紙.pdf} % 表紙のスキャンデータ（PDF）を挿入する
 \end{comment}
 
-\title{レポート名称}
-\author{名前：黒河一真\\学籍番号：202411607\\課題番号：第n週課題}
+\title{プログラミング序論A 特別課題レポート}
+\author{学籍番号：202411607\\名前：黒河一真\\課題番号：第n回課題}
 \date{\today}
 
 \begin{document}
@@ -105,6 +71,24 @@
 \maketitle
 %\newpage
 
-\section{あ}
+\section{特別課題n}
+
+\subsection{問題解決のための方策}
+
+\subsection{プログラムリスト}
+作成したプログラムをソースコード\ref{program}に示す。
+\begin{lstlisting}[caption=特別課題nのプログラム,label=program]
+
+\end{lstlisting}
+\subsection{結果および考察，感想}
+\subsubsection{出力結果}
+ソースコード\ref{program}で示したプログラムに対し、ソースコード\ref{input}に示す入力を与えた場合の実行結果をソースコード\ref{result}に示す。
+\begin{lstlisting}[caption=特別課題nのプログラムに対する入力,label=input]
+
+\end{lstlisting}
+\begin{lstlisting}[caption=特別課題nのプログラムの実行結果,label=result]
+
+\end{lstlisting}
+\subsubsection{考察及び感想}
 
 \end{document}
