@@ -47,17 +47,6 @@
 }
 \renewcommand{\lstlistingname}{ソースコード}
 
-% sectionとsubsectionの見出しの番号をなくす
-\usepackage{titlesec}
-\titleformat{\section}[block]{\normalfont\Large\bfseries}{}{0pt}{}
-\titleformat{\subsection}[block]{\normalfont\large\bfseries}{}{0pt}{}
-
-% subsubsectionの見出しを1.~スタイルに
-\renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
-
-% subsubsectionまで番号を付ける
-\setcounter{secnumdepth}{3}
-
 \begin{comment}
 【画像】
 \begin{figure}[H]
@@ -71,55 +60,36 @@
 \begin{lstlisting}[caption=hoge,label=fuga]
 <code>
 \end{lstlisting}
-
-【表】
-\begin{table}[H]
-    \centering
-    \caption{hoge}
-    \label{fuga}
-    \begin{tabular}{cc|cc}
-          &  &  &  \\
-         \hline
-          &  &  &  \\
-          &  &  &  \\
-          &  &  &  \\
-          &  &  &  \\
-    \end{tabular}
-\end{table}
-
-【参考文献】
-\begin{thebibliography}{99999}
-\bibitem{hoge} 参考文献
-\end{thebibliography}
-
-【表紙】
-\includepdf{表紙.pdf} % 表紙のスキャンデータ（PDF）を挿入する
 \end{comment}
 
-\title{工学システム基礎実験A 第n週レポート}
-\author{name}
+\title{プログラミング序論A 課題レポート}
+\author{学籍番号：202411607\\名前：黒河一真\\課題番号：第1週課題}
 \date{\today}
 
 \begin{document}
 
-%\maketitle
+\maketitle
 %\newpage
 
-\section{実験テーマ}
-\textbf{\large あ}
+\section{課題1}
 \subsection{目的}
-\section{第1週}
-\subsection{実験の目的}
-\subsection{課題1}
-\subsubsection{目的}
-\subsubsection{方法}
-\subsubsection{結果}
-\subsubsection{考察}
-\section{第2週}
-\subsection{実験の目的}
-\subsection{課題1}
-\subsubsection{目的}
-\subsubsection{方法}
-\subsubsection{結果}
-\subsubsection{考察}
+\subsection{問題解決のための方策}
+\subsection{プログラムリスト}
+\subsection{結果および考察，感想}
+\subsubsection{出力結果}
+\subsubsection{考察及び感想}
+\section{課題2}
+\subsection{目的}
+\subsection{問題解決のための方策}
+\subsection{プログラムリスト}
+\subsection{結果および考察，感想}
+\subsubsection{出力結果}
+\subsubsection{考察及び感想}
+\section{課題3}
+\subsection{目的}
+\subsection{問題解決のための方策}
+\subsection{プログラムリスト}
+\subsection{結果および考察，感想}
+\subsubsection{出力結果}
+\subsubsection{考察及び感想}
 \end{document}
